@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Follow Chirp</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Stylesheets go here. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/follow.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Moments</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Messages</a></li>
+          </ul>
+          <div class="col-sm-3 input-group text-right navbar-header navbar-right">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button id="logout" class="btn btn-secondar btn-block" type="button">Logout!</button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <br>
+    <br>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="./img/chirp-logo.png" alt="profile pic" />
+              <div class="row">
+                <div class="col-sm-12 text-center">
+                  <h5>Name</h5>
+                  <h5>Email</h5>
+                  <br />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-6 text-left ">
+                  Following
+                </div>
+                <div class="col-xs-6 text-right">
+                  Followers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-9 col-xs-12">
+          <div id="toFollow" class="row followerSection">
+            <div class="col-sm-4 col-xs-4 card">
+              <div class="thumbnail">
+                <div class="card-pic">
+                  <img src="./img/chirp-logo.png" alt="image of chirp">
+                </div>
+                <br />
+                <div class="card-info text-capitalize text-left">
+                  <span>email: <span class="text-lowercase">dummie1@gmail.com</span></span><br />
+                  <span>username: Johnny Quest1</span>
+                </div>
+                <br />
+                <div class="card-btn">
+                  <div class="row">
+                    <div class="col-sm-6 text-left">
+                      <button id="cardUnfollow" class="btn btn-info btn-block">Unfollow</button>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                      <button id="cardFollow" class="btn btn-info btn-block">Follow</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-4 card">
+              <div class="thumbnail">
+                <div class="card-pic">
+                  <img src="./img/chirp-logo.png" alt="image of chirp">
+                </div>
+                <br />
+                <div class="card-info text-capitalize text-left">
+                  <span>email: <span class="text-lowercase">dummie2@gmail.com</span></span><br />
+                  <span>username: Johnny Quest2</span>
+                </div>
+                <br />
+                <div class="card-btn">
+                  <div class="row">
+                    <div class="col-sm-6 text-left">
+                      <button id="cardUnfollow2" class="btn btn-info btn-block">Unfollow</button>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                      <button id="cardFollow2" class="btn btn-info btn-block">Follow</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-4 card">
+              <div class="thumbnail">
+                <div class="card-pic">
+                  <img src="./img/chirp-logo.png" alt="image of chirp">
+                </div>
+                <br />
+                <div class="card-info text-capitalize text-left">
+                  <span>email: <span class="text-lowercase">dummie3@gmail.com</span></span><br />
+                  <span>username: Johnny Quest3</span>
+                </div>
+                <br />
+                <div class="card-btn">
+                  <div class="row">
+                    <div class="col-sm-6 text-left">
+                      <button id="cardUnfollow3" class="btn btn-info btn-block">Unfollow</button>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                      <button id="cardFollow3" class="btn btn-info btn-block">Follow</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Content goes here. -->
+
+
+  <div class="container">
+    <div class="row">
+
+    </div>
+  </div>
+  <!-- Scripts go here. -->
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+  <!-- <script type="text/javascript" src="global.js"></script> -->
+</body>
+</html>

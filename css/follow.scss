@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+//Generic Styling for Page
+img {
+  width: 100%;
+}
+header {
+  margin-bottom: 40px;
+}
+
+//Styling for the header
+.navbar {
+  background-color: #50E3C2;
+  color: black;
+}
+
+//Styling for the Body
+
+
+//Styling for the Left side of the Body
+
+//Styling for the Right side of the Body
+.followerSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 20vw;
+  // margin-right: 20px;
+  // margin-left: 100px;
+  span {
+    width: 100%;
+    span {
+      width: 80%;
+      overflow: hidden;
+    }
+  }
+}
+
+//Styling for the Footer

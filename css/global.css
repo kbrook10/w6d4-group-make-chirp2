@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+#signup {
+  background-color: gray;
+  color: white;
+}
+
+#signin {
+  background-color: #50E3C2;
+  color: white;
+}
+
+.navbar {
+  background-color: #50E3C2;
+  color: black;
+}
+
+.padBox {
+  padding-top: 7px;
+  margin-right: -5px;
+}
+
+.tweetbtn {
+  background-color: #50E3C2;
+}
+
+.smallerPic {
+  height: 50px;
+  width: 100%;
+}
