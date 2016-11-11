@@ -17,6 +17,7 @@ class ChirpProfile extends React.Component {
               <h5>Name</h5>
               <p>Email</p>
               <br />
+              <br />
             </div>
           </div>
           <div className="row">
