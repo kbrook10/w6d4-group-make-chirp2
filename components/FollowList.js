@@ -7,7 +7,7 @@ class FollowList extends React.Component {
     }
     render() {
         return
-        <Home />
+        <Main />
     }
 }
 

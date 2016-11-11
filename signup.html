@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Group Make Chirp Page</title>
+  <title>Signup Chirp</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Stylesheets go here. -->
   <script src="https://use.fontawesome.com/bfd4e076b7.js"></script>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> <link rel="stylesheet" type="text/css" href="css/signup.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/signup.css" />
 </head>
 <body>
-  <br/>
-  <div id="signup"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <img src="./img/chirp-logo.png" alt="image of the chirp logo" />
+        <h1>Sign-Up</h1>
+        <hr />
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" value="" id="usernameSignup" name="username" placeholder="Enter Name" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" placeholder="sample@gmail.com" value="" id="emailSignup" name="email" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="passwordSignup" name="password" class="form-control" placeholder="..." value="" required />
+        </div>
+        <div class="form-group">
+          <label for="photo">Photo</label>
+          <input type="file" id="photoSignup" value="" name="photo" class="form-control" required />
+        </div>
+        <div id="errors"></div>
+        <div class="form-group">
+          <button type="button" id="uploadSignup" class="btn btn-bg btn-block">Upload!</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
-  <!-- <script type="text/javascript" src="js/global.bundle.js"></script> -->
-  <script type="text/javascript" src="js/signup.bundle.js"></script>
+  <script type="text/javascript" src="js/signup.js"></script>
 </body>
 </html>
